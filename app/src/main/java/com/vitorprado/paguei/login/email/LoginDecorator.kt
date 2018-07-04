@@ -1,7 +1,7 @@
 package com.vitorprado.paguei.login.email
 
 import android.support.design.widget.Snackbar
-import br.com.digipronto.tradeapp.extensions.circularReveal
+import com.vitorprado.paguei.extensions.circularReveal
 import com.vitorprado.paguei.common.decorator.Decorator
 import com.vitorprado.paguei.databinding.LoginBinding
 

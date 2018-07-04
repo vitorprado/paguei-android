@@ -1,4 +1,4 @@
-package br.com.digipronto.tradeapp.extensions
+package com.vitorprado.paguei.extensions
 
 import android.app.Activity
 import android.content.Context

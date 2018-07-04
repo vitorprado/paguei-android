@@ -33,6 +33,5 @@ class LoginActivity : AppCompatActivity() {
         }
 //        Repository.get().forLogin().login(credential)
     }
-
-
 }
+

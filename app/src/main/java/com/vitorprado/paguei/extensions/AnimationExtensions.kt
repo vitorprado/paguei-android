@@ -1,4 +1,4 @@
-package br.com.digipronto.tradeapp.extensions
+package com.vitorprado.paguei.extensions
 
 import android.animation.Animator
 import android.animation.ArgbEvaluator
