@@ -1,5 +1,6 @@
 package com.vitorprado.paguei.login.email
 
+import android.content.Intent
 import android.databinding.DataBindingUtil
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
@@ -8,6 +9,7 @@ import com.vitorprado.paguei.common.decorator.DecoratedContract
 import com.vitorprado.paguei.databinding.LoginBinding
 import com.vitorprado.paguei.login.email.values.Credentials
 import com.vitorprado.paguei.login.email.values.User
+import com.vitorprado.paguei.main.banckSlip.BankSlipActivityRegister
 import io.reactivex.Observable
 
 class LoginActivity : AppCompatActivity() {
@@ -21,6 +23,7 @@ class LoginActivity : AppCompatActivity() {
 
     private fun contract(binding: LoginBinding) = object : DecoratedContract<User>(LoginDecorator(binding)) {
         override fun onDone(data: User?) {
+            startActivity(Intent(binding.root.context, BankSlipActivityRegister::class.java))
             finish()
         }
     }
